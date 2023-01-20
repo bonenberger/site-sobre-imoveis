@@ -11,6 +11,9 @@
     --cor03: #0455BF;
     --cor04: #0A4DA6;
     --cor05: #BFBFBF;
+
+    --fontepadrão: Arial, Helvetica, sans-serif;
+    --fontedestaque: times, serif;
 }
 
 body {
@@ -22,6 +25,7 @@ header {
     color: white;
     text-align: center;
     height: 150px;
+    font-family: var(--fontedestaque);
 }
 
 header h1 {
